@@ -286,18 +286,17 @@
           "+237697868614 et par mail au ..."
         ]
       },
-  
-  
+ 
+          
       {
-        "tag": "funny",
+        "tag": "localisation",
         "patterns": [
-          "Tell me a joke!",
-          "Tell me something funny!",
-          "Do you know a joke?"
+          "Vous êtes situé où svp?",
+          "vous resté ou ?",
+          "vous vous situez ou?"
         ],
         "responses": [
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
+          "pour douala Immeuble ipn bonapriso      pour yaoundé obogo, pres de la station GULFIN."
         ]
       }
     ]
