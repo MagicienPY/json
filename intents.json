@@ -273,7 +273,7 @@
     },
     {
       "tag": "contact",
-      "patterns": ["avez vous whatsapp ?", "whatsap?"],
+      "patterns": ["avez vous whatsapp ?", "whatsap?","et si je veux vous appeler ?"],
       "responses": [
         "+237697868614"
       ]
@@ -281,7 +281,7 @@
     
     {
       "tag": "contact2",
-      "patterns": ["comment vous contacter?", "telephone?","téléphone","contact"],
+      "patterns": ["comment vous contacter?", "telephone?","téléphone","contact","comment faire pour vous joindre"],
       "responses": [
         "+237697868614 et par mail au ..."
       ]
@@ -296,7 +296,7 @@
       
       {
       "tag": "hebergement",
-      "patterns": ["j'ai besoin d'un hebergement?", "je veux héberger mon site?","comment héberger mon site?","je souhaites héberger mon site","j'ai besoin d'un hébergement?", "je veux heberger mon site?","comment heberger mon site?","je souhaites heberger mon site"],
+      "patterns": ["j'ai besoin d'un hebergement?", "je veux héberger mon site?","comment héberger mon site?","je souhaites héberger mon site","j'ai besoin d'un hébergement?", "je veux heberger mon site?","comment heberger mon site?","je souhaites heberger mon site","quel sont les modalitées de l'hebergement"],
       "responses": [
         "ok je vous comprend si vous voulez heberger votre site il vous faudra visiter si site suivant vous voire les modalitées"
       ]
@@ -304,7 +304,7 @@
 
       {
       "tag": "chers",
-      "patterns": ["le prix est trop élévé", "c'est trop chers","les prix est tres exorbitant","rabès","diminuier le prix"],
+      "patterns": ["le prix est trop élévé","je ne peux pas acheter ca ", "c'est trop chers","les prix est tres exorbitant","rabès","diminuier le prix"],
       "responses": [
         "ok si vous considérez les prix élévé la section negociation est sur ce numero  +237697868614 merci "
       ]
@@ -312,7 +312,7 @@
     
     {
       "tag": "rdv",
-      "patterns": ["comment prendre un rendez vous", "rendez vous","reunion"],
+      "patterns": ["comment prendre un rendez vous", "rendez vous","reunion","ou es que je peut vous trouver"],
       "responses": [
         "ok si vous souhaitez prendre rendez vous  contactez ce numero  +237697868614 merci "
       ]
@@ -324,7 +324,7 @@
       "patterns": [
         "Vous êtes situé où svp?",
         "vous resté ou ?",
-        "vous vous situez ou?"
+        "vous vous situez ou?","comment vous retrouver?"
       ],
       "responses": [
         "pour douala Immeuble ipn bonapriso      pour yaoundé obogo, pres de la station GULFIN."
