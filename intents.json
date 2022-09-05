@@ -286,6 +286,29 @@
           "+237697868614 et par mail au ..."
         ]
       },
+        {
+        "tag": "Qvend",
+        "patterns": ["que vendez vous?", "vous vendez quoi?","quesque vous vendez","vos produits"],
+        "responses": [
+          "ok nous vendons des des services tel que  :            la location des  serveurs                   l'hébergement des sites web          la vente des licences             la creation des sites web                             la creation des application personnalisé "
+        ]
+      },
+        
+        {
+        "tag": "hebergement",
+        "patterns": ["j'ai besoin d'un hebergement?", "je veux héberger mon site?","comment héberger mon site?","je souhaites héberger mon site"],
+        "responses": [
+          "ok je vous comprend si vous voulez heberger votre site il vous faudra visiter si site suivant vous voire les modalitées"
+        ]
+      },
+ 
+        {
+        "tag": "chers",
+        "patterns": ["le prix est trop élévé", "c'est trop chers","les prix est tres exorbitant","rabès","diminuier le prix"],
+        "responses": [
+          "ok si vous considérez les prix élévé la section negociation est sur ce numero  +237697868614 merci "
+        ]
+      },
  
           
       {
