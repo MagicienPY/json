@@ -247,7 +247,7 @@
     ,
     {
       "tag": "avantage",
-      "patterns": ["quel avantage", "quel avantages", "les avantages", "avantage par rapport au autres"],
+      "patterns": ["quel avantage", "quel avantages", "les avantages", "avantage par rapport au autres"," qu'est-ce que je gagne"],
       "responses": [
         "nos prix sont plus abordable et la securité ne coût rien chez nous",
         "la sécurité la rappidité  mais encore la vitesse et noius sommes accecible partousen Afrique et ailleur"
@@ -317,14 +317,141 @@
         "ok si vous souhaitez prendre rendez vous  contactez ce numero  +237697868614 merci "
       ]
     },
-
-        
+    {
+      "tag": "liste",
+      "patterns": ["la liste des services", "liste de service","vos services","quel sont vos services ?"],
+      "responses": [
+        "DTR consulting      :          Hébergement des sites web                   Infogérance                     Développement site web vitrine et Ecommerce                            community management                    location des serveurs                     Consulting sur des solutions opensources et propietaires                     Développement d'application metier"
+      ]
+    },
+    {
+      "tag": "dtr",
+      "patterns": ["quesque DTR", "quesque dtr","c'est quoi dtr","dtr?"],
+      "responses": [
+        "DTR: consulting vient se greffer sur un marché existant pour y approter son expertise afin que toutes personnes physiques ou morales puissent accèder aux dernières technologies à un prix préférentiel et d'une qualité impeccable"
+      ]
+    },  
+    {
+      "tag": "infogerance",
+      "patterns": ["c'est quoi l'infogérance", "l'infogerance","infogérance","l'infogérance"],
+      "responses": [
+        "Nos équipes d'adiministrateurs réseaux et système vous accompagnent pour tous vos besoins en infogérance ponctuelle serveurs dédiés pour plus d'info www.google.com/fr "
+      ]
+    },
+    {
+      "tag": "management",
+      "patterns": ["c'est quoi community management ?", "community management ","management"],
+      "responses": [
+        "Expert des communautés web, nos community management sont à disposition afin d'exercer des prestations pour principalement des annonceurs, une entreprises, un site web en vue de les aider a se démarquer de leurs concurrents respectifs et à développer leus presences sur le web et plus encore           pour plus d'info visiter notre agent +237697868614"
+      ]
+    },  
+    {
+      "tag": "application metier",
+      "patterns": ["application metier", "qu'enttendez vous par application metier","application métier"],
+      "responses": [
+        "de par le biais de notre expérience nous vous accompagnons dans la creation d'applications métiers qui faciliteront la gestion des activités de votre entreprise (tâches) tout en automatisant les process vous garantissant vos performances ,convivialité et flecibilité           pour plus d'information contacter +237697868614"
+      ]
+    },  
+    {
+      "tag": "CONSULTING",
+      "patterns": ["les solutions opensources et propriétaires", "opensource et propiétaire"],
+      "responses": [
+        "Nous vous accompagnons sur le site ou a distance sur vos projets en ingéniérie informatique . notre domaine d'intervention est axé sur l'infrastructure .pour plus d'information contacter +237697868614"
+      ]
+    },  
+    {
+      "tag": "information",
+      "patterns": ["J’aimerais avoir plus d’informations ", "plus d'info","des informations"],
+      "responses": [
+        "vous voulez des infos sur quoi?"
+      ]
+    }, 
+    {
+      "tag": "data_center",
+      "patterns": ["Le Data center est situé où ?", "ou es situer votre data center","ou es votre data center"],
+      "responses": [
+        "En Europe , c'est pour quoi c'est toujours disponible"
+      ]
+    },
+    {
+      "tag": "domaines",
+      "patterns": ["concernant les domaines", "le prix de nom de domaine","nom de domaine"],
+      "responses": [
+        "Actuellement les domaines avec l'extension com  avoisine les 7000fcfa pour plus d'info visitez le site http://www.dtrhosting.cm/ il ya tous sur les domaines de chez nous Merci"
+      ]
+    },  
+    {
+      "tag": "pays",
+      "patterns": [" Algeria", "Egypt", "Libya", "Mauritania",
+      "Morocco", "Sahrawi Arab Democratic Republic","Tunisia", "Angola", "Botswana", "Lesotho"," Malawi",
+      "Mozambique", "Namibia", "South Africa", "Swaziland", "Zambia","Zimbabwe"," Bénin", "Burkina Faso", "Cabo Verde", "Côte d'Ivoire", "Gambie", "Ghana", "Guinée", "Guinée-Bissau", "Libéria","Mali",
+      "Niger", "Nigéria", "Sénégal", "Sierra Leone","Togo","Comores", "Djibouti", "Ethiopie", "Érythrée", "Kenya",
+      "Madagascar", "Maurice", "Ouganda", "Rwanda", "Seychelles", "Somalie","Soudan du Sud","Soudan","Tanzanie","Burundi", "Cameroun", "Congo", "Gabon", "Guinée équatoriale", "République centrafricaine", "République démocratique du Congo", "São Tomé-et-Príncipe","Tchad","Algérie", "Égypte", "Libye", "Maroc", "Mauritanie","République arabe sahraouie démocratique" ,"Tunisie","Afrique du Sud", "Angola", "Botswana", "Lesotho",
+      "Malawi", "Mozambique", "Namibie", "Swaziland", "Zambie","Zimbabwe"],
+      "responses": [
+        " ou que vous soyez sous somme disponible pour vous mais nos agences sont situer en France , au Cameroun ( yaoundé, douala) il vous suffit de contacter  ce numéro : +237697868614 ou le +33613653240  si vous voulez avoir un eclairage net merci "
+      ]
+    }, 
+    
+    {
+      "tag":"villeCamer",
+      "patterns":["Djérem Tibati","Faro-et-Déo","Tignère","Mayo-Banyo","Banyo ","Mbéré"	,"Meiganga","Ngaoundéré","Yaoundé","Haute-Sanaga"	,"Nanga-Eboko",
+      "Lekié Monatele",
+      "Mbam-et-Inoubou","Bafia","Mbam-et-Kim",	"Ntui",
+      "Méfou-et-Afamba","Mfou","Méfou-et-Akono","Ngoumou",
+      "Mfoundi","Yaoundé","Nyong-et-KellévÉséka",
+      "Nyong-et-Mfoumou",	"Akonolinga",
+      "Nyong-et-So’o",	"Mbalmayo",
+      "Est Bertoua","Boumba-et-Ngoko",	"Yokadouma",
+      "Haut-Nyong",	"Abong-Mbang",
+      "Kadey","Batouri",
+      "Lom-et-Djérem",	"Bertoua",
+      "Extrême-Nord",	"Maroua",	"Diamaré",	"Maroua",
+      "Logone-et-Chari",	"Kousséri",
+     " Mayo-Danay",	"Yagoua",
+      "Mayo-Kani"	,"Kaélé",
+      "Mayo-Sava",	"Mora",
+      "Mayo-Tsanaga","Mokolo",
+      "Littoral","Douala",	"Moungo",	"Nkongsamba",
+      "Nkam","Yabassi",
+      "Sanaga-Maritime"	,"Édéa",
+      "Wouri",	"Douala",
+      "Nord",	"Garoua",	"Bénoué",	"Garoua",
+      "Faro",	"Poli",
+      "Mayo-Louti",	"Guider",
+      "Mayo-Rey"	,"Tcholliré",
+      "Nord-Ouest"	,"Bamenda","Boyo",	"Fundong",
+      "Bui",	"Kumbo",
+      "Donga-Mantung"	,"Nkambé",
+      "Menchum",	"Wum","Mezam"	,"Bamenda",
+      "Momo"	,"Mbengwi",
+      "Ngo-Ketunjia",	"Ndop",
+      "Ouest","Bafoussam"	,"Bamboutos",	"Mbouda",
+      "Haut-Nkam",	"Bafang",
+      "Hauts-Plateaux",	"Baham",
+      "Koung-Khi",	"Bandjoun",
+      "Menoua",	"Dschang",
+      "Mifi",	"Bafoussam",
+      "Ndé",	"Bangangté",
+      "Noun",	"Foumban",
+      "Sud","Ebolowa",	"Dja-et-Lobo",	"Sangmélima",
+      "Mvila",	"Ebolowa",
+      "Océan",	"Kribi",
+      "Vallée-du-Ntem",	"Ambam",
+      "Sud-Ouest",	"Buéa",	"Fako",	"Limbé",
+      "Koupé-Manengouba",	"Bangem",
+      "Lebialem",	"Menji",
+      "Manyu",	"Mamfé",
+      "Meme",	"Kumba",
+      "Ndian",	"Mundemba"],
+      "responses":["partout au cameroun vous pouvez nous avoir nous sommes situé en France à yaoundé et Douala pour le moment"]
+    },
     {
       "tag": "localisation",
       "patterns": [
         "Vous êtes situé où svp?",
         "vous resté ou ?",
-        "vous vous situez ou?","comment vous retrouver?"
+        "vous vous situez ou?","comment vous retrouver?","comment faire pour vous trouver"
       ],
       "responses": [
         "pour douala Immeuble ipn bonapriso      pour yaoundé obogo, pres de la station GULFIN."
