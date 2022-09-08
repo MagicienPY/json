@@ -14,6 +14,7 @@
         "pouvez vous m'aider ?",
         "Hello",
         "cc",
+        "bonsoir",
         "Good day"
       ],
       "responses": [
@@ -22,6 +23,15 @@
     },
     {
       "tag": "depart",
+      "patterns": ["Bye", "a plus", "au revoir", "aurevoir"],
+      "responses": [
+        "merci et revenez nous en cas de besoin, merci de la visite",
+        "passez une belle journé",
+        "Bye! je suis ravis de vous avoir servis."
+      ]
+    },
+    {
+      "tag": "p",
       "patterns": ["Bye", "a plus", "au revoir", "aurevoir"],
       "responses": [
         "merci et revenez nous en cas de besoin, merci de la visite",
@@ -44,8 +54,8 @@
         "combien le serveur ?"
       ],
       "responses": [
-        " consernant les prix vous pouvez consulter cette page     https://www.dtrconsulting.cm/serveur-vps/   elle offre plus de detaille",
-        "effectivement nous parlons de ce prix à partir de 2 000Fcfa concernant l'offre de serveur VPS , visitez en cas de necessité  https://www.dtrconsulting.cm/serveur-vps/"
+        " consernant les prix vous pouvez consulter cette page     https://www.dtrhosting.cm/en/services/server/dedicated-server  elle offre plus de detaille",
+        "effectivement nous parlons de ce prix à partir de 2 000Fcfa concernant l'offre de serveur VPS , visitez en cas de necessité  https://www.dtrhosting.cm/en/services/server/dedicated-server"
 
       ]
     },
@@ -56,11 +66,117 @@
         "quel est le type de serveur?",
         "type de serveur que vous avez?",
         "Type de serveur? ",
+        "serceur",
         "version de serveur?"
       ],
       "responses": [
-        " Nous utilisons des serveurs VPS ",
-        "des serveurs VPS  a la pointe de la technologie."
+        " Nous avons deux types de serveur :   SERVEUR DEDIE & SERVEUR VPS  pour les informations sur les prix et type de serveurs je vous prie de d'aller vers https://www.dtrhosting.cm/en/services/server  "
+
+      ]
+    },
+    {
+      "tag": "serveur_dedie",
+      "patterns": [
+        
+        "serveur dédié",
+        "serveurs dédiés",
+        "besoin d'un serveur dédié",
+        "avoir un serveur dédié",
+        "serveur dedie",
+        "serveurs dedies",
+        "besoin d'un serveur dedie",
+        "avoir un serveur dedie",
+        "voudrais un serveur dédié"
+      ],
+      "responses": [
+        " oooook ! si vous voulez un serveur dédié et sur tous a bas prix il vous suffit d'aller sur https://www.dtrhosting.cm/en/services/server/dedicated-server   labà il y'a des offres que moi même je n'arrives pas comprendre"
+
+      ]
+    },
+
+    {
+      "tag": "serveur_vps",
+      "patterns": [
+        
+        "serveur vps",
+        "serveurs vps",
+        "besoin d'un serveur vps",
+        "avoir un serveur vps",
+        "voudrais un serveur vps"
+      ],
+      "responses": [
+        " je vois ok ! si vous voulez un serveur vps et sur tous a bas prix il vous suffit d'aller sur https://www.dtrhosting.cm/en/services/server/vps-server   labà il y'a des offres que moi même je n'arrives pas comprendre"
+
+      ]
+    },
+    {
+      "tag": "sauvegarde",
+      "patterns": [
+        
+        "je voudrais un espace de stockage",
+        "espace de stockage",
+        "sauvegarde",
+        "c'est quoi la sauvegarde",
+        "sauvegarder"
+      ],
+      "responses": [
+        "besoin de sauvegarder vos informations en toute securité ? DTR a la solution https://www.dtrhosting.cm/en/services/server/backup  visitez ce site pour les prix Merci"
+
+      ]
+    },
+    {
+      "tag": "offrescorporative",
+      "patterns": [
+        
+        "offre corporative",
+        "offres corporatives",
+        "vos offres corporatives",
+        "les offres corporatives",
+        "l'offre corporative"
+      ],
+      "responses": [
+        "Merci les Offres corporative ici ce trouve ici https://www.dtrhosting.cm/en/services/server/corporate-offer vous même allez en juger "
+
+      ]
+    },
+    {
+      "tag": "la toile",
+      "patterns": [
+        
+        "toile",
+        "la toile",
+        "c'est quoi la toile"
+      ],
+      "responses": [
+        "Ok mon Amie la toile ici constutue un groupe de services de DTRHosting soit Hébergement Web , NextCloud , et E-mail professionelle"
+
+      ]
+    },
+    {
+      "tag": "e-mailPro",
+      "patterns": [
+        
+        "e-mail pro",
+        "e-mail professionnel",
+        "email pro",
+        "email profesionnel"
+      ],
+      "responses": [
+        "d'accord belle amie, vous voulez peut-être des ou un email pro alors regardez ici   https://www.dtrhosting.cm/en/services/e-mail je penses que ca vous aideras"
+
+      ]
+    },
+    {
+      "tag": "logicielpro",
+      "patterns": [
+        
+        "logiciel que vous utilisez",
+        "vos logiciels",
+        "logiciel",
+        "nom des logiciels"
+      ],
+      "responses": [
+        "Dans le cadre de l'hébergement entretient de vos donnés et programmes nous utilison CPANEL ET PLEsk qui vous serons mise a disposition pour plus d'infos tchek ther! : https://www.dtrhosting.cm/en/softwares "
 
       ]
     },
@@ -135,6 +251,10 @@
       "tag": "santé",
       "patterns": [
         "comment vas tu?",
+        "comment tu vas",
+        "comment vous vous portez",
+        "commment vous allez",
+        "comment tu te porte",
         "comment tu te sent?",
         "et ta santé?"
       ],
@@ -191,8 +311,8 @@
         "acheter une licence"
       ],
       "responses": [
-        "Hey ! nous avons des licences tell que CPANEL , PLEX la quel voulez vous ?",
-        "nous avons deux types de licences dont CPANEL & PLEX"
+        "Hey ! nous avons des licences tell que CPANEL , plesk la quel voulez vous ?",
+        "nous avons deux types de licences dont CPANEL & plesk"
        
       ]
     },
@@ -208,19 +328,19 @@
     },
 
     {
-      "tag": "plex",
+      "tag": "plesk",
       "patterns": [
-        "et la licence plex",
-        "et la licence PLEX",
-        "plex",
-        "combien coute la licence plex?",
-        "PLEX",
-        "combien cout la licence PLEX",
-        "besoin de la licence plex"
+        "et la licence plesk",
+        "et la licence plesk",
+        "plesk",
+        "combien coute la licence plesk?",
+        "plesk",
+        "combien cout la licence plesk",
+        "besoin de la licence plesk"
       ],
       "responses": [
-        "OK  , bon chois premierement la licence PLEX  est :...  mais les prix sont les suivants 2500 pour 1 ans   et est disponible en 10 personnes en montan",
-        "il faut d'abord savoir que la licence PLEX est ... et vous pouvez avoir a se service a 2500 seulement l'ans et est dispo a  10 personnes en montan",
+        "OK  , bon chois premierement la licence plesk  est :...  mais les prix sont les suivants 2500 pour 1 ans   et est disponible en 10 personnes en montan",
+        "il faut d'abord savoir que la licence plesk est ... et vous pouvez avoir a se service a 2500 seulement l'ans et est dispo a  10 personnes en montan",
         "elle n'est pas du tous chers pour 2500 vous l'avez l'année entier sans rebond!  et est disponible a partire de  10 personnes en montan"
       ]
     },
@@ -237,7 +357,7 @@
     
     {
       "tag": "hebergement",
-      "patterns": ["hebergement", "combien coute l'hébergement", "hébergement","l'hébergement"],
+      "patterns": ["hebergement", "combien coute l'hébergement", "hébergement","l'hébergement","j'ai voudrais héberger","j'aimerais héberger","héberger un site","héberger le site","je souhaites héberger","comment héberger"],
       "responses": [
         "consernant l'hébergement a partire de 500 fcfa seulement vous avez un espace et 5GO de memoire pour plus d'information aller sur www.dtrconsulting.cm/web ",
         "chez nous l'hebergement est presque gratuit ! a partir de 500 fcfa vous etes ok et il y a bien plus d'obtion disponible sur la page officiel www.dtrconsulting.cm/web"
@@ -319,9 +439,9 @@
     },
     {
       "tag": "liste",
-      "patterns": ["la liste des services", "liste de service","vos services","quel sont vos services ?"],
+      "patterns": ["la liste des services", "liste de service","vos services","quel sont vos services ?","services"],
       "responses": [
-        "DTR consulting      :          Hébergement des sites web                   Infogérance                     Développement site web vitrine et Ecommerce                            community management                    location des serveurs                     Consulting sur des solutions opensources et propietaires                     Développement d'application metier"
+        "DTR consulting      :          >>>Hébergement des sites web                   >>>Infogérance                     >>>Développement site web vitrine et Ecommerce                            >>>community management                    >>>location des serveurs                     >>>Consulting sur des solutions opensources et propietaires                     >>>Développement d'application metier                   >>>E-mail professionnel                    >>>Nextcloud                    >>>serveur dédié                    >>>serveur vps                 >>>serveurs pour Entreprise                     >>>sauvegarde                   >>>vente de licences                   >>>application"
       ]
     },
     {
@@ -375,11 +495,27 @@
     },
     {
       "tag": "domaines",
-      "patterns": ["concernant les domaines", "le prix de nom de domaine","nom de domaine"],
+      "patterns": ["concernant les domaines", "le prix de nom de domaine","nom de domaine","besoin d'un nom de domaine","creer un nom de domaine"],
       "responses": [
-        "Actuellement les domaines avec l'extension com  avoisine les 7000fcfa pour plus d'info visitez le site http://www.dtrhosting.cm/ il ya tous sur les domaines de chez nous Merci"
+        "Actuellement les domaines avec l'extension com  avoisine les 7000fcfa pour plus d'info visitez le site https://www.dtrhosting.cm/en/domain il ya tous sur les domaines de chez nous Merci"
       ]
-    },  
+    },
+    {
+      "tag": "domaines2",
+      "patterns": ["c'est quoi un nom de domaine", "definir nom de domaine","definition de nom de domaine"],
+      "responses": [
+        "nom de domaine: est figurant sous forme abrégée à la fin d'une adresse électronique."
+      ]
+    },
+    {
+      "tag": "cloud",
+      "patterns": ["nextcloud", "cloud","du nextcloud","du cloud","votre cloud","de nextcloud"],
+      "responses": [
+        "les montants et les information et offres allaichantes ce trouve ici https://www.dtrhosting.cm/en/services/server/nextcloud  vous y trouverez votre compte je vous assure.",
+        "si vous voulez ensavoir plus sur ce service il vous suffit de visiter et trouver votre compte sur  https://www.dtrhosting.cm/en/services/server/nextcloud   "
+      ]
+    }, 
+ 
     {
       "tag": "pays",
       "patterns": [" Algeria", "Egypt", "Libya", "Mauritania",
