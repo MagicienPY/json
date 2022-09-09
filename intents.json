@@ -18,12 +18,12 @@
         "Good day"
       ],
       "responses": [
-        "salut a vous comment je peux vous audez  : exemple     : avez vous besoint de:         hebergement ?           licence ?      serveur ?     nom de domain ?"
+        "salut a vous comment je peux vous aidez  : exemple     :                         avez vous besoint de:                             >>>Hébergement des sites web                   >>>Infogérance                     >>>Développement site web vitrine et Ecommerce                            >>>community management                    >>>location des serveurs                     >>>Consulting sur des solutions opensources et propietaires                     >>>Développement d'application metier                   >>>E-mail professionnel                    >>>Nextcloud                    >>>serveur dédié                    >>>serveur vps                 >>>serveurs pour Entreprise                     >>>sauvegarde                   >>>vente de licences                   >>>application"
       ]
     },
     {
       "tag": "depart",
-      "patterns": ["Bye", "a plus", "au revoir", "aurevoir"],
+      "patterns": ["Bye", "a plus", "au revoir", "aurevoir", "a toute", "bye"],
       "responses": [
         "merci et revenez nous en cas de besoin, merci de la visite",
         "passez une belle journé",
@@ -86,6 +86,9 @@
         "serveurs dedies",
         "besoin d'un serveur dedie",
         "avoir un serveur dedie",
+        "a combien un serveur dédié ?",
+        "le serveur dédié",
+        " et le serveur dédié ",
         "voudrais un serveur dédié"
       ],
       "responses": [
@@ -102,6 +105,10 @@
         "serveurs vps",
         "besoin d'un serveur vps",
         "avoir un serveur vps",
+        "le serveur vps",
+        "les serveurs vps",
+        "besoin du serveur vps",
+        "avoir le serveur vps",
         "voudrais un serveur vps"
       ],
       "responses": [
@@ -509,7 +516,7 @@
     },
     {
       "tag": "cloud",
-      "patterns": ["nextcloud", "cloud","du nextcloud","du cloud","votre cloud","de nextcloud"],
+      "patterns": ["nextcloud", "cloud","du nextcloud","du cloud","votre cloud","de nextcloud","je voudrais le nextcloud","au nextcloud"],
       "responses": [
         "les montants et les information et offres allaichantes ce trouve ici https://www.dtrhosting.cm/en/services/server/nextcloud  vous y trouverez votre compte je vous assure.",
         "si vous voulez ensavoir plus sur ce service il vous suffit de visiter et trouver votre compte sur  https://www.dtrhosting.cm/en/services/server/nextcloud   "
