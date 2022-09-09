@@ -18,7 +18,7 @@
         "Good day"
       ],
       "responses": [
-        "salut a vous comment je peux vous aidez  : exemple     :                         avez vous besoint de:                             >>>Hébergement des sites web                   >>>Infogérance                     >>>Développement site web vitrine et Ecommerce                            >>>community management                    >>>location des serveurs                     >>>Consulting sur des solutions opensources et propietaires                     >>>Développement d'application metier                   >>>E-mail professionnel                    >>>Nextcloud                    >>>serveur dédié                    >>>serveur vps                 >>>serveurs pour Entreprise                     >>>sauvegarde                   >>>vente de licences                   >>>application"
+        "salut a vous  je peux vous aidez  : exemple     :                         avez vous besoint de:                             >>>Hébergement des sites web                   >>>Infogérance                     >>>Développement site web vitrine et Ecommerce                            >>>community management                    >>>location des serveurs                     >>>Consulting sur des solutions opensources et propietaires                     >>>Développement d'application metier                   >>>E-mail professionnel                    >>>Nextcloud                    >>>serveur dédié                    >>>serveur vps                 >>>serveurs pour Entreprise                     >>>sauvegarde                   >>>vente de licences                   >>>application"
       ]
     },
     {
@@ -30,18 +30,10 @@
         "Bye! je suis ravis de vous avoir servis."
       ]
     },
-    {
-      "tag": "p",
-      "patterns": ["Bye", "a plus", "au revoir", "aurevoir"],
-      "responses": [
-        "merci et revenez nous en cas de besoin, merci de la visite",
-        "passez une belle journé",
-        "Bye! je suis ravis de vous avoir servis."
-      ]
-    },
+    
     {
       "tag": "remerciments",
-      "patterns": ["merci", "je vous remercie", "je te remercie", "Tmerci beaucoup!"],
+      "patterns": ["merci", "je vous remercie", "je te remercie", "merci beaucoup!"],
       "responses": ["je vous en prie!", "a nimporte quel heure je serais disponible!", "tous le plaisir est pour moi"]
     },
     {
@@ -66,7 +58,7 @@
         "quel est le type de serveur?",
         "type de serveur que vous avez?",
         "Type de serveur? ",
-        "serceur",
+        "serveur",
         "version de serveur?"
       ],
       "responses": [
@@ -83,13 +75,11 @@
         "besoin d'un serveur dédié",
         "avoir un serveur dédié",
         "serveur dedie",
+        "dédié",
         "serveurs dedies",
-        "besoin d'un serveur dedie",
-        "avoir un serveur dedie",
         "a combien un serveur dédié ?",
         "le serveur dédié",
-        " et le serveur dédié ",
-        "voudrais un serveur dédié"
+        " un serveur dédié"
       ],
       "responses": [
         " oooook ! si vous voulez un serveur dédié et sur tous a bas prix il vous suffit d'aller sur https://www.dtrhosting.cm/en/services/server/dedicated-server   labà il y'a des offres que moi même je n'arrives pas comprendre"
@@ -119,11 +109,9 @@
     {
       "tag": "sauvegarde",
       "patterns": [
-        
-        "je voudrais un espace de stockage",
         "espace de stockage",
         "sauvegarde",
-        "c'est quoi la sauvegarde",
+        "la sauvegarde",
         "sauvegarder"
       ],
       "responses": [
@@ -179,8 +167,7 @@
         
         "logiciel que vous utilisez",
         "vos logiciels",
-        "logiciel",
-        "nom des logiciels"
+        "logiciel"
       ],
       "responses": [
         "Dans le cadre de l'hébergement entretient de vos donnés et programmes nous utilison CPANEL ET PLEsk qui vous serons mise a disposition pour plus d'infos tchek ther! : https://www.dtrhosting.cm/en/softwares "
@@ -192,10 +179,10 @@
       "tag": "Renseignement_montant_hebergement",
       "patterns": [
         
-        "a combien fait vous l'hébergement?",
-        "le prix d'un hébergement?",
+        "fait vous l'hébergement?",
+        "d'un hébergement?",
         "Vous hébergez des sites web? ",
-        "montant de l'hébergement?"
+        "l'hébergement?"
       ],
       "responses": [
         " consernant les prix et d'autre infos vous pouvez consulter cette page     https://www.dtrconsulting.cm/   elle offre plus de detaille",
@@ -206,11 +193,11 @@
     {
       "tag": "payments",
       "patterns": [
-        "vous prenez des des carts banquaire?",
-        "acceptez vous orange money ?",
-        "quel est votre mode de payement?",
+        "carts banquaire?",
+        "orange money ?",
+        "mode de payement?",
         "prenez vous du cache?",
-        "On paie comment"
+        "On paie "
       ],
       "responses": [
         "Ok , nous acceptons Orange Money, MTN MoMo",
@@ -234,7 +221,7 @@
       "tag": "prix_vpn",
       "patterns": [
       
-        "quel est le prix d'un vpn?",
+        "d'un vpn?",
         "prix du vpn"
       ],
       "responses": [
@@ -247,22 +234,24 @@
       "patterns": [
         "oui",
         "ok",
+        "ca roule",
         "d'accord"
       ],
       "responses": [
         "ok ",
+        "ca roule",
         "je vous en prie!"
       ]
     },
     {
       "tag": "santé",
       "patterns": [
-        "comment vas tu?",
-        "comment tu vas",
-        "comment vous vous portez",
-        "commment vous allez",
-        "comment tu te porte",
-        "comment tu te sent?",
+        "vas tu?",
+        "tu vas",
+        "vous vous portez",
+        "vous allez",
+        "tu te porte",
+        "tu te sent?",
         "et ta santé?"
       ],
       "responses": [
@@ -274,7 +263,7 @@
       "tag": "nom",
       "patterns": [
         "quel est ton nom?",
-        "comment on t'appelle?",
+        " on t'appelle?",
         "votre nom?"
       ],
       "responses": [
@@ -285,8 +274,8 @@
     {
       "tag": "age",
       "patterns": [
-        "quel est ton age?",
-        "quel age as tu ?",
+        "ton age?",
+        "age as tu ?",
         "ton âge?"
       ],
       "responses": [
@@ -311,11 +300,11 @@
     {
       "tag": "licence",
       "patterns": [
-        "besoins d'une licence",
-        "avez vous des licences?",
+        "d'une licence",
+        "des licences?",
         "licences",
         "licence?",
-        "acheter une licence"
+        "une licence"
       ],
       "responses": [
         "Hey ! nous avons des licences tell que CPANEL , plesk la quel voulez vous ?",
@@ -325,7 +314,7 @@
     },
     {
       "tag": "CPANEL",
-      "patterns": ["CPANEL", "cpanel", "combien cout la licence cpanel", "combien coût la licence cpanel", "le prix de la licence cpanel"],
+      "patterns": ["CPANEL", "cpanel", "la licence cpanel"],
       "responses": [
         "ok vous choisissez la licience cpanel la Durré est de 1 ans et le prix est 2000 fcfa mais gratuit au premier achat d'hebergement   pour en savoir plus sur la licence :     Avec Websoftsolus vous pouvez acheter des licences cPanel avec une livraison instantan e  et des prix tr s comp titifs que vous soyez h bergeur revendeur fournisseur de services ou bien utilisateur final.",
         "la licence cpanel cout 2000 fcfa l'ans . pour plus d'info visitez www.dtrconsulting.cm       pour en savoir plus sur la licence   :    Avec Websoftsolus vous pouvez acheter des licences cPanel avec une livraison instantan e  et des prix tr s comp titifs que vous soyez h bergeur revendeur fournisseur de services ou bien utilisateur final.",
@@ -337,13 +326,10 @@
     {
       "tag": "plesk",
       "patterns": [
-        "et la licence plesk",
-        "et la licence plesk",
+        "la licence plesk",
+        "coute la licence plesk?",
         "plesk",
-        "combien coute la licence plesk?",
-        "plesk",
-        "combien cout la licence plesk",
-        "besoin de la licence plesk"
+        "une licence plesk"
       ],
       "responses": [
         "OK  , bon chois premierement la licence plesk  est :...  mais les prix sont les suivants 2500 pour 1 ans   et est disponible en 10 personnes en montan",
@@ -360,18 +346,6 @@
         "plus la licence a des personnes plus le montant ogmente."
       ]
     },
-
-    
-    {
-      "tag": "hebergement",
-      "patterns": ["hebergement", "combien coute l'hébergement", "hébergement","l'hébergement","j'ai voudrais héberger","j'aimerais héberger","héberger un site","héberger le site","je souhaites héberger","comment héberger"],
-      "responses": [
-        "consernant l'hébergement a partire de 500 fcfa seulement vous avez un espace et 5GO de memoire pour plus d'information aller sur www.dtrconsulting.cm/web ",
-        "chez nous l'hebergement est presque gratuit ! a partir de 500 fcfa vous etes ok et il y a bien plus d'obtion disponible sur la page officiel www.dtrconsulting.cm/web"
-        
-      ]
-    }
-    ,
     {
       "tag": "avantage",
       "patterns": ["quel avantage", "quel avantages", "les avantages", "avantage par rapport au autres"," qu'est-ce que je gagne"],
@@ -393,7 +367,7 @@
     ,
     {
       "tag": "vps",
-      "patterns": ["cest qoi un serveur vps", "vps?", "définition du serveur vps", "vps c'est quoi?"],
+      "patterns": ["cest qoi un serveur vps","définition du serveur vps", "vps c'est quoi?"],
       "responses": [
         "Un serveur est un ensemble de ressources matérielles et immatérielles relié à un réseau afin de partager des données entre plusieurs utilisateurs. Il est composé d'un espace de stockage, d'un processeur, d'une mémoire vive, d'un système d'exploitation et d'un environnement logiciel permettant d'exécuter des opérations répondant aux requêtes effectuées par des ordinateurs distants.  pour plus d'infons   ecrivez 'contacter' comme message "
       ]
@@ -408,14 +382,14 @@
     
     {
       "tag": "contact2",
-      "patterns": ["comment vous contacter?", "telephone?","téléphone","contact","comment faire pour vous joindre"],
+      "patterns": ["vous contacter?", "telephone?","téléphone","contact","pour vous joindre"],
       "responses": [
         "+237697868614 et par mail au ..."
       ]
     },
       {
       "tag": "Qvend",
-      "patterns": ["que vendez vous?", "vous vendez quoi?","quesque vous vendez","vos produits"],
+      "patterns": ["vendez vous?", "vendez quoi?","vous vendez","vos produits"],
       "responses": [
         "ok nous vendons des des services tel que  :            la location des  serveurs                   l'hébergement des sites web          la vente des licences             la creation des sites web                             la creation des application personnalisé "
       ]
@@ -423,15 +397,17 @@
       
       {
       "tag": "hebergement",
-      "patterns": ["j'ai besoin d'un hebergement?", "je veux héberger mon site?","comment héberger mon site?","je souhaites héberger mon site","j'ai besoin d'un hébergement?", "je veux heberger mon site?","comment heberger mon site?","je souhaites heberger mon site","quel sont les modalitées de l'hebergement"],
+      "patterns": ["un hebergement?", "héberger mon site?","héberger","héberger mon site web","d'un hébergement", "veux heberger","modalitées de l'hebergement"],
       "responses": [
-        "ok je vous comprend si vous voulez heberger votre site il vous faudra visiter si site suivant vous voire les modalitées"
+        "ok je vous comprend si vous voulez heberger votre site il vous faudra visiter si site suivant vous voire les modalitées",
+        "consernant l'hébergement a partire de 500 fcfa seulement vous avez un espace et 5GO de memoire pour plus d'information aller sur www.dtrconsulting.cm/web ",
+        "chez nous l'hebergement est presque gratuit ! a partir de 500 fcfa vous etes ok et il y a bien plus d'obtion disponible sur la page officiel www.dtrconsulting.cm/web"
       ]
     },
 
       {
       "tag": "chers",
-      "patterns": ["le prix est trop élévé","je ne peux pas acheter ca ", "c'est trop chers","les prix est tres exorbitant","rabès","diminuier le prix"],
+      "patterns": ["trop élévé","peux pas acheter ca ", "trop chers","tres exorbitant","rabès","diminuier le prix"],
       "responses": [
         "ok si vous considérez les prix élévé la section negociation est sur ce numero  +237697868614 merci "
       ]
@@ -439,7 +415,7 @@
     
     {
       "tag": "rdv",
-      "patterns": ["comment prendre un rendez vous", "rendez vous","reunion","ou es que je peut vous trouver"],
+      "patterns": [" prendre un rendez vous", "rendez vous","reunion","vous trouver"],
       "responses": [
         "ok si vous souhaitez prendre rendez vous  contactez ce numero  +237697868614 merci "
       ]
@@ -594,10 +570,10 @@
       "patterns": [
         "Vous êtes situé où svp?",
         "vous resté ou ?",
-        "vous vous situez ou?","comment vous retrouver?","comment faire pour vous trouver"
+        "vous vous situez ou?"," vous retrouver?"," faire pour vous trouver"
       ],
       "responses": [
-        "pour douala Immeuble ipn bonapriso      pour yaoundé obogo, pres de la station GULFIN."
+        "pour douala Immeuble ipn bonapriso      pour yaoundé obogo apres carrefour columbia, pres de la station GULFIN."
       ]
     }
   ]
