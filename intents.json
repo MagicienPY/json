@@ -12,7 +12,6 @@
         "bonjour",
         "coucou",
         "pouvez vous m'aider ?",
-        "Hello",
         "cc",
         "bonsoir",
         "Good day"
@@ -21,6 +20,8 @@
         "salut a vous  je peux vous aidez  : exemple     :                         avez vous besoint de:                             >>>Hébergement des sites web                   >>>Infogérance                     >>>Développement site web vitrine et Ecommerce                            >>>community management                    >>>location des serveurs                     >>>Consulting sur des solutions opensources et propietaires                     >>>Développement d'application metier                   >>>E-mail professionnel                    >>>Nextcloud                    >>>serveur dédié                    >>>serveur vps                 >>>serveurs pour Entreprise                     >>>sauvegarde                   >>>vente de licences                   >>>application"
       ]
     },
+
+
     {
       "tag": "depart",
       "patterns": ["Bye", "a plus", "au revoir", "aurevoir", "a toute", "bye"],
@@ -36,8 +37,10 @@
       "patterns": ["merci", "je vous remercie", "je te remercie", "merci beaucoup!"],
       "responses": ["je vous en prie!", "a nimporte quel heure je serais disponible!", "tous le plaisir est pour moi"]
     },
+
+    
     {
-      "tag": "Renseignement_montant_serveur",
+      "tag": "R_m_s",
       "patterns": [
         
         "a combien fait vous les serveurs?",
@@ -51,21 +54,25 @@
 
       ]
     },
+
     {
       "tag": "type_de_serveur",
       "patterns": [
         
-        "quel est le type de serveur?",
-        "type de serveur que vous avez?",
-        "Type de serveur? ",
-        "serveur",
-        "version de serveur?"
+        "quel est le type de serveur ?",
+        "type de serveur que vous avez ?",
+        "Type de serveur ? ",
+        "serveur ",
+        "quel sont les diférents serveur que vous avez ?",
+        "version de serveur ?"
       ],
       "responses": [
         " Nous avons deux types de serveur :   SERVEUR DEDIE & SERVEUR VPS  pour les informations sur les prix et type de serveurs je vous prie de d'aller vers https://www.dtrhosting.cm/en/services/server  "
 
       ]
     },
+
+
     {
       "tag": "serveur_dedie",
       "patterns": [
@@ -79,7 +86,8 @@
         "serveurs dedies",
         "a combien un serveur dédié ?",
         "le serveur dédié",
-        " un serveur dédié"
+        "d'un serveur dédié",
+        "un serveur dédié"
       ],
       "responses": [
         " oooook ! si vous voulez un serveur dédié et sur tous a bas prix il vous suffit d'aller sur https://www.dtrhosting.cm/en/services/server/dedicated-server   labà il y'a des offres que moi même je n'arrives pas comprendre"
@@ -96,6 +104,8 @@
         "besoin d'un serveur vps",
         "avoir un serveur vps",
         "le serveur vps",
+        "d'un serveur vps",
+        "un serveur vps",
         "les serveurs vps",
         "besoin du serveur vps",
         "avoir le serveur vps",
@@ -112,7 +122,7 @@
         "espace de stockage",
         "sauvegarde",
         "la sauvegarde",
-        "sauvegarder"
+        "de sauvegarde"
       ],
       "responses": [
         "besoin de sauvegarder vos informations en toute securité ? DTR a la solution https://www.dtrhosting.cm/en/services/server/backup  visitez ce site pour les prix Merci"
@@ -174,22 +184,8 @@
 
       ]
     },
-    
-    {
-      "tag": "Renseignement_montant_hebergement",
-      "patterns": [
-        
-        "fait vous l'hébergement?",
-        "d'un hébergement?",
-        "Vous hébergez des sites web? ",
-        "l'hébergement?"
-      ],
-      "responses": [
-        " consernant les prix et d'autre infos vous pouvez consulter cette page     https://www.dtrconsulting.cm/   elle offre plus de detaille",
-        "Le service qui est facturé à partir de 500 FCFA            1000FCFA concerne nos hébergements web VIP. pour plus d'infos : https://www.dtrconsulting.cm/"
 
-      ]
-    },
+    
     {
       "tag": "payments",
       "patterns": [
@@ -204,11 +200,13 @@
         "nous avons un plugging de payement disponible dans la section de reglement"
       ]
     },
+
+
     {
       "tag": "vpn",
       "patterns": [
       
-        "un adresse Ip fixe?",
+        "un vpn",
         "vpn"
       ],
       "responses": [
@@ -217,20 +215,9 @@
       ]
     },
     
+   
     {
-      "tag": "prix_vpn",
-      "patterns": [
-      
-        "d'un vpn?",
-        "prix du vpn"
-      ],
-      "responses": [
-        "un VPN DTRHOSTING coute 1000FCFA le moi  pour plus d'infos : https://www.dtrconsulting.cm/serveur-vps/ ",
-        "consernant le VPN DTRHOSTING vous pouvez vous renseigner ici https://www.dtrconsulting.cm/serveur-vps/  "
-      ]
-    },
-    {
-      "tag": "validation",
+      "tag": "valid",
       "patterns": [
         "oui",
         "ok",
@@ -246,12 +233,12 @@
     {
       "tag": "santé",
       "patterns": [
-        "vas tu?",
-        "tu vas",
-        "vous vous portez",
-        "vous allez",
-        "tu te porte",
-        "tu te sent?",
+        "comment vas tu?",
+        "commment tu vas",
+        "comment vous vous portez",
+        "comment  allez vous",
+        "comment tu te porte",
+        "comment tu te sent?",
         "et ta santé?"
       ],
       "responses": [
@@ -274,8 +261,8 @@
     {
       "tag": "age",
       "patterns": [
-        "ton age?",
-        "age as tu ?",
+        "quel est ton age?",
+        "quel age as tu ?",
         "ton âge?"
       ],
       "responses": [
@@ -314,7 +301,7 @@
     },
     {
       "tag": "CPANEL",
-      "patterns": ["CPANEL", "cpanel", "la licence cpanel"],
+      "patterns": ["CPANEL", "cpanel", "la licence cpanel","une licence cpanel"],
       "responses": [
         "ok vous choisissez la licience cpanel la Durré est de 1 ans et le prix est 2000 fcfa mais gratuit au premier achat d'hebergement   pour en savoir plus sur la licence :     Avec Websoftsolus vous pouvez acheter des licences cPanel avec une livraison instantan e  et des prix tr s comp titifs que vous soyez h bergeur revendeur fournisseur de services ou bien utilisateur final.",
         "la licence cpanel cout 2000 fcfa l'ans . pour plus d'info visitez www.dtrconsulting.cm       pour en savoir plus sur la licence   :    Avec Websoftsolus vous pouvez acheter des licences cPanel avec une livraison instantan e  et des prix tr s comp titifs que vous soyez h bergeur revendeur fournisseur de services ou bien utilisateur final.",
@@ -329,7 +316,8 @@
         "la licence plesk",
         "coute la licence plesk?",
         "plesk",
-        "une licence plesk"
+        "une licence plesk",
+        "PLEX"
       ],
       "responses": [
         "OK  , bon chois premierement la licence plesk  est :...  mais les prix sont les suivants 2500 pour 1 ans   et est disponible en 10 personnes en montan",
@@ -337,15 +325,7 @@
         "elle n'est pas du tous chers pour 2500 vous l'avez l'année entier sans rebond!  et est disponible a partire de  10 personnes en montan"
       ]
     },
-    {
-      "tag": "type_licence",
-      "patterns": [" 10 personnes", "personnes", "* nobre de personnes ", "100 personne"],
-      "responses": [
-        "vous pouvez avoir les deux licences pour plusieurs  personnes ",
-        "notez que vous pouvez avoir plaint de personnes sur cette licence",
-        "plus la licence a des personnes plus le montant ogmente."
-      ]
-    },
+    
     {
       "tag": "avantage",
       "patterns": ["quel avantage", "quel avantages", "les avantages", "avantage par rapport au autres"," qu'est-ce que je gagne"],
@@ -365,13 +345,7 @@
       ]
     }
     ,
-    {
-      "tag": "vps",
-      "patterns": ["cest qoi un serveur vps","définition du serveur vps", "vps c'est quoi?"],
-      "responses": [
-        "Un serveur est un ensemble de ressources matérielles et immatérielles relié à un réseau afin de partager des données entre plusieurs utilisateurs. Il est composé d'un espace de stockage, d'un processeur, d'une mémoire vive, d'un système d'exploitation et d'un environnement logiciel permettant d'exécuter des opérations répondant aux requêtes effectuées par des ordinateurs distants.  pour plus d'infons   ecrivez 'contacter' comme message "
-      ]
-    },
+   
     {
       "tag": "contact",
       "patterns": ["avez vous whatsapp ?", "whatsap?","et si je veux vous appeler ?"],
@@ -384,12 +358,13 @@
       "tag": "contact2",
       "patterns": ["vous contacter?", "telephone?","téléphone","contact","pour vous joindre"],
       "responses": [
-        "+237697868614 et par mail au ..."
+        "+237697868614 et par mail au info@dtrconsulting.tech "
       ]
     },
+
       {
       "tag": "Qvend",
-      "patterns": ["vendez vous?", "vendez quoi?","vous vendez","vos produits"],
+      "patterns": ["que vendez vous?", "vous vendez quoi?","vous vendez","quel sont vos produits"],
       "responses": [
         "ok nous vendons des des services tel que  :            la location des  serveurs                   l'hébergement des sites web          la vente des licences             la creation des sites web                             la creation des application personnalisé "
       ]
@@ -397,11 +372,18 @@
       
       {
       "tag": "hebergement",
-      "patterns": ["un hebergement?", "héberger mon site?","héberger","héberger mon site web","d'un hébergement", "veux heberger","modalitées de l'hebergement"],
+      "patterns": ["un hebergement?", "héberger mon site?","héberger","héberger mon site web","d'un hébergement", "veux heberger","modalitées de l'hebergement","fait vous l'hébergement",
+      "d'un hébergement",
+      "Vous hébergez des sites web? ",
+      "l'hébergement",
+      "un hebergement?"],
       "responses": [
         "ok je vous comprend si vous voulez heberger votre site il vous faudra visiter si site suivant vous voire les modalitées",
         "consernant l'hébergement a partire de 500 fcfa seulement vous avez un espace et 5GO de memoire pour plus d'information aller sur www.dtrconsulting.cm/web ",
-        "chez nous l'hebergement est presque gratuit ! a partir de 500 fcfa vous etes ok et il y a bien plus d'obtion disponible sur la page officiel www.dtrconsulting.cm/web"
+        "chez nous l'hebergement est presque gratuit ! a partir de 500 fcfa vous etes ok et il y a bien plus d'obtion disponible sur la page officiel www.dtrconsulting.cm/web",
+        " consernant les prix et d'autre infos vous pouvez consulter cette page     https://www.dtrconsulting.cm/   elle offre plus de detaille",
+        "Le service qui est facturé à partir de 500 FCFA            1000FCFA concerne nos hébergements web VIP. pour plus d'infos : https://www.dtrconsulting.cm/"
+
       ]
     },
 
@@ -509,6 +491,13 @@
       "Malawi", "Mozambique", "Namibie", "Swaziland", "Zambie","Zimbabwe"],
       "responses": [
         " ou que vous soyez sous somme disponible pour vous mais nos agences sont situer en France , au Cameroun ( yaoundé, douala) il vous suffit de contacter  ce numéro : +237697868614 ou le +33613653240  si vous voulez avoir un eclairage net merci "
+      ]
+    }, 
+    {
+      "tag": "lol",
+      "patterns": ["lol", "mdr"],
+      "responses": [
+        ":) amusant hein !"
       ]
     }, 
     
