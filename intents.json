@@ -23,7 +23,7 @@
 
 
     {
-      "tag": "depart",
+      "tag": "sortie",
       "patterns": ["Bye", "a plus", "au revoir", "aurevoir", "a toute", "bye"],
       "responses": [
         "merci et revenez nous en cas de besoin, merci de la visite",
@@ -161,7 +161,7 @@
       "tag": "e-mailPro",
       "patterns": [
         
-        "e-mail pro",
+        "voudrais e-mail pro",
         "e-mail professionnel",
         "email pro",
         "email profesionnel"
@@ -372,7 +372,7 @@
       
       {
       "tag": "hebergement",
-      "patterns": ["un hebergement?", "héberger mon site?","héberger","héberger mon site web","d'un hébergement", "veux heberger","modalitées de l'hebergement","fait vous l'hébergement",
+      "patterns": ["un hebergement?","heberger un site","héberger un site web", "héberger mon site?","héberger des sites web","souhaites héberger","héberger mon site web","d'un hébergement", "je veux heberger","modalitées de l'hebergement","fait vous l'hébergement",
       "d'un hébergement",
       "Vous hébergez des sites web? ",
       "l'hébergement",
@@ -550,7 +550,7 @@
       "Koupé-Manengouba",	"Bangem",
       "Lebialem",	"Menji",
       "Manyu",	"Mamfé",
-      "Meme",	"Kumba",
+      "Meme",	"Kumba","je vie a","je vie à","je restes à",
       "Ndian",	"Mundemba"],
       "responses":["partout au cameroun vous pouvez nous avoir nous sommes situé en France à yaoundé et Douala pour le moment"]
     },
